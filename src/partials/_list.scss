@@ -1,0 +1,25 @@
+.list-container {
+  height: 60vh;
+}
+
+.list {
+  font-size: 25px;
+  font-family: 'Ropa Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+   p {
+     margin-bottom: 20px;
+     margin-top: 20px;
+   }
+  h1 {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  .list {
+    text-align: center;
+  }
+}

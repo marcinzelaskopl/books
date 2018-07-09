@@ -1,0 +1,17 @@
+.inner {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  font-family: 'Ropa Sans', sans-serif;
+  flex-direction: column;
+  align-items: center;
+  height: 20vh;
+  line-height: 65px;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  .inner {
+    font-size: 21px;
+    height: 40vh;
+  }
+}

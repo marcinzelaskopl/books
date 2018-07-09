@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  flex-direction: column;
+  color: white;
+  height: 35vh;
+  font-family: 'Ropa Sans', sans-serif;
+  background-color: black;
+    p {
+      margin: 10px;
+    }
+}
+
+.social {
+  margin: 10px;
+  &:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.25);
+  }
+}

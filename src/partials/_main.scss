@@ -1,0 +1,18 @@
+.main {
+  font-family: 'Great Vibes', cursive;
+  background-image: url("./images/main-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 55px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+  .main {
+    font-size: 35px;
+  }
+}
