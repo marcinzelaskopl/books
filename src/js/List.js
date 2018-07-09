@@ -4,6 +4,7 @@ import '../App.css';
 import MM from '../images/mastermargharita.jpeg';
 import Witcher from '../images/witcher.jpg';
 import AmericanGods from '../images/americangods.jpg';
+import Footer from "./Footer";
 
 class List extends Component {
     render(){
@@ -33,6 +34,7 @@ class List extends Component {
                     <div className={'col-1'}>
                     </div>
                 </div>
+                <Footer/>
             </div>
         )
     }

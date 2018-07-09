@@ -21,3 +21,8 @@
     transform: scale(1.25);
   }
 }
+@media (min-width: 300px) and (max-width: 1024px) {
+  .footer {
+    height: 50vh;
+  }
+}
